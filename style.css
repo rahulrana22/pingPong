@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    /* how to align board in center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.board{
+
+    height: 85vh;
+    width: 70vw;
+    background-color: black;
+    
+    border-radius: 2%;
+}
+.ball{
+    /* how to make a circle in board */
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:rgb(245, 86, 139);
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+    
+    
+}
+.paddle{
+    height: 120px;
+    width: 15px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);    position: fixed;
+    border: 2px;
+    position: fixed;
+}
+.left{
+    top:40vh;
+    left:16vw;
+}
+.right{
+    top:40vh;
+    right: 16vw;
+}
+.fa-circle{
+   color:yellow;
+    font-size: 30px;
+
+}
+.scoreboard{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+}
+
+.separator{
+    width:4px;
+    height: 70%;
+    background-color:white;
+}
